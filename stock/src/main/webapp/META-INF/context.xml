@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+<Resource auth="Container"
+name="jdbc/mydb2"
+type="javax.sql.DataSource"
+driverClassName="org.postgresql.Driver"
+url="jdbc:postgresql:yapi"
+username="postgres"
+password="admin"
+maxIdle="10"
+maxActive="5000"
+maxWait="500"
+MaxConnections="3000"
+removeAbandoned="true"
+removeAbandonedTimeout="1200"
+/>
+</Context>
